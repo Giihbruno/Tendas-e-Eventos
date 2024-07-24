@@ -314,6 +314,14 @@ html {
     color: #ffc506;
 }
 
+.contatos-instagram a{
+    color: white;
+}
+
+.contatos-facebook a{
+    color: white;
+}
+
 footer {
     height: 35px;
     background-color: #000000;
