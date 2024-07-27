@@ -672,7 +672,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 400px) {
     .sobre-nos, .contatos, footer, header, .Tenda{
         width: 137%;
     }
