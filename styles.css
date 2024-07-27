@@ -672,9 +672,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 351px) {
+@media screen and (max-width: 361px) {
     .sobre-nos, .contatos, footer, header, .Tenda{
-        width: 142%;
+        width: 137%;
     }
 
     .first-section{
@@ -684,6 +684,10 @@ footer {
 
     .conteudo-principal h1{
         font-size: 35px ;
+    }
+
+    .conteudo-principal h2{
+        font-size: 25px ;
     }
  
 
