@@ -678,11 +678,11 @@ footer {
     }
 
     .first-section{
-        display: block;
         margin: 150px 0px 150px 70px ;
     }
 
     .conteudo-principal h1{
+        width: 100%;
         font-size: 35px ;
     }
 
@@ -693,7 +693,7 @@ footer {
 
     .img-tenda{
         width: 100%;
-        margin: -50px 50px 0px 0px;
+        margin: -40px 0px 0px 0px;
     }
 }
 
