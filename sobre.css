@@ -1,0 +1,149 @@
+.sobre-nos {
+    background-color: #b5b2b26e;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sobre-nos img {
+    width: 50%;
+    height: 80%;
+    margin: 30px 0px 0px 90px;
+    border: 2px solid rgb(155, 155, 155);
+}
+
+.contentsobre h2 {
+   font-size: 30px;
+   margin: 0px 0px 25px 0px;
+   font-family:"Carlito";
+}
+
+.contentsobre p {
+    font-size: 20px;
+   text-align: center;
+   width: 70%;
+}
+
+.contentsobre a{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1600px) {
+    .contentsobre{
+        width: 100%;
+    }
+
+    .contentsobre p{
+        width: 80%;
+    }
+
+ 
+}
+
+@media screen and (max-width: 1000px) {
+    .contentsobre{
+        width: 100%;
+    }
+
+    .contentsobre p{
+        width: 80%;
+    }
+
+    .imagem-tenda{
+        width: 90%;
+    }
+ 
+}
+
+@media screen and (max-width: 1070px) {
+    .contentsobre h2{
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .contentsobre{
+        width: 100%;
+    }
+
+    .contentsobre h2{
+        margin: 20px 0px 15px 0px;
+        font-size: 20px;
+    }
+
+    .contentsobre p{
+        font-size: 15px;
+        width: 90%;
+        margin: 0px 0px 0px 20px;
+    }
+
+    .imagem-tenda{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .contentsobre{
+        width: 100%;
+    }
+
+    .contentsobre h2{
+        font-size: 15px;
+        margin: 0px 0px 10px 20px ;
+    }
+
+    .contentsobre p{
+        font-size: 12px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 25px 0px 0px;
+    }
+
+    .imagem-tenda{
+        margin: 0px 0px 0px 30px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .imagem-tenda{
+        margin: 0px 0px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .imagem-tenda{
+        margin: 0px 0px 0px 0px;
+    }
+}

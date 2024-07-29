@@ -1,0 +1,106 @@
+.contatos {
+    width: 100%;
+    background-color: #b5b2b26e;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.contatos h3 {
+   font-size: 35px;
+   font-family: "Carlito";
+   margin: 10px 0px 20px 0px ;
+}
+
+.contatos-secao {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: 10px 0px 25px 0px;
+    
+}
+
+.contatos-secao i{
+    margin-right: 0.2rem;
+}
+
+.contatos-secao div{
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+.contatos-secao div :hover{
+    color: #ffc506;
+}
+
+.contatos-instagram a{
+    color: black;
+}
+
+.contatos-facebook a{
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 750px) {
+
+    .contatos-secao{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (max-width: 577px) {
+
+    .contatos h3{
+        font-size: 25px ;
+    }
+    .contatos-secao{
+        width: 90%;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+
+    .contatos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contatos h3{
+        font-size: 25px ;
+        margin: 10px 0px 10px 10px;
+    }
+    .contatos-secao{
+        width: 90%;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+
+    .contatos h3{
+        font-size: 23px ;
+        
+    }
+
+    .contatos-secao{
+        font-size: 13px;
+    }
+}

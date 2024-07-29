@@ -13,15 +13,9 @@ $(document).ready(function() {
 
         let activeSectionIndex = 0;
 
-        if (scrollPosition <= 0) {
-            header.css('box-shadow', 'none');
-        } else {
-            header.css('box-shadow', '5px 1px 5px rgba(0, 0, 0, 0.1');
-        }
-
         sections.each(function(i) {
             const section = $(this);
-            const sectionTop = section.offset().top - 600;
+            const sectionTop = section.offset().top - 350;
             const sectionBottom = sectionTop+ section.outerHeight();
 
             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
@@ -34,28 +28,22 @@ $(document).ready(function() {
         $(navItems[activeSectionIndex]).addClass('active');
     });
 
-    ScrollReveal().reveal('#cta', {
+    ScrollReveal().reveal('.btn', {
         origin: 'left',
         duration: 2000,
-        distance: '20%'
+        distance: '560%'
     });
 
-    ScrollReveal().reveal('.dish', {
-        origin: 'left',
-        duration: 2000,
-        distance: '20%'
-    });
-
-    ScrollReveal().reveal('#testimonial_chef', {
-        origin: 'left',
-        duration: 1000,
-        distance: '20%'
-    })
-
-    ScrollReveal().reveal('.feedback', {
+    ScrollReveal().reveal('.main', {
         origin: 'right',
-        duration: 1000,
+        duration: 3000,
         distance: '20%'
     })
+
+    ScrollReveal().reveal('.Tenda', {
+        origin: 'left',
+        duration: 3000,
+        distance: '20%'
+    });
 
 });

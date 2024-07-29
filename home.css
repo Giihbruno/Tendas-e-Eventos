@@ -1,0 +1,140 @@
+.first-section{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 300px 0px 300px 0px;
+}
+
+.first-section .conteudo-principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.first-section h1{
+    color: black;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: "Carlito";
+}
+
+.first-section h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: "Carlito";
+    margin-bottom: 3rem;
+}
+
+.btn button {
+    font-size: 15px;
+    width: 220px;
+    height: 55px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #ffc506;
+    border-radius: 10px;
+    color: black;
+    font-weight: 600;
+    transition: all 300ms ease-in;
+    margin-top: 5rem;
+}
+
+.btn button:hover {
+    border: 1px solid #ffc506;
+    background-color: transparent;
+    color: #ffc506;
+}
+
+.btn {
+    width:100%;
+    display: flex;
+    justify-content: center;
+   
+}
+
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    .conteudo-principal{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .conteudo-principal{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .conteudo-principal h1{
+        font-size: 30px;
+    }
+
+    .conteudo-principal h2{
+        font-size: 25px;
+    }
+
+    .btn button{
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .conteudo-principal{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .conteudo-principal h1{
+        font-size: 25px;
+    }
+
+    .conteudo-principal h2{
+        font-size: 20px;
+    }
+
+    .btn button{
+        font-size: 13px;
+        width: 180px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .conteudo-principal{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .conteudo-principal h1{
+        font-size: 20px;
+    }
+
+    .conteudo-principal h2{
+        font-size: 17px;
+    }
+
+    .btn button{
+        font-size: 10px;
+        width: 150px;
+        height: 35px;
+    }
+}
