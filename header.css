@@ -28,7 +28,7 @@
 #navbar #nav_list li a{
     padding: 3rem 1rem 2rem 1rem;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
     transition: all 200ms ease-in;

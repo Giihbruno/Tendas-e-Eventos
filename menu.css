@@ -8,7 +8,7 @@
 }
 
 .Tenda h2 {
-    font-size: 35px;
+    font-size: 28px;
     color: black;
     text-transform: uppercase;
     font-family: "Carlito";
@@ -18,8 +18,8 @@
 .itens-Tenda {
     width: 90%;
     margin: 0px 0px 0px 0px ;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
     justify-content: center;
     align-items: center;
     gap: 50px;
@@ -37,18 +37,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3px 1px 20px 0px;
+    padding: 3px 1px 20px 5px;
 }
 
 .itens-Tenda .info h3 {
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
 .itens-Tenda .info h4 {
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -60,13 +60,14 @@
 
 .itens-Tenda img {
     width: 30%;
-    height: 90px;
+    height: 70px;
 }
 
 .itens-Tenda .info .orçamento {
-    width: 200px;
+    width: 150px;
     height: 35px;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 550;
     margin-top: 0.5rem;
     background-color: #ffc506;
     border-radius: 10px;
@@ -82,7 +83,7 @@
 }
 
 #compra-tenda h5{
-    font-size: 25px;
+    font-size: 22px;
     margin: 35px 0px 30px 0px;
     text-transform: initial ;
 }

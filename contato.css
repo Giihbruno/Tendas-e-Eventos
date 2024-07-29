@@ -9,9 +9,9 @@
 }
 
 .contatos h3 {
-   font-size: 35px;
+   font-size: 28px;
    font-family: "Carlito";
-   margin: 10px 0px 20px 0px ;
+   margin: 20px 0px 20px 0px ;
 }
 
 .contatos-secao {
@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px 0px 25px 0px;
     
 }

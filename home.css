@@ -19,7 +19,7 @@
 
 .first-section h1{
     color: black;
-    font-size: 35px;
+    font-size: 32px;
     text-transform: uppercase;
     margin-bottom: 1rem;
     font-family: "Carlito";
@@ -27,7 +27,7 @@
 
 .first-section h2{
     color: black;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 400;
     text-transform: uppercase;
     font-family: "Carlito";
@@ -36,8 +36,8 @@
 
 .btn button {
     font-size: 15px;
-    width: 220px;
-    height: 55px;
+    width: 215px;
+    height: 50px;
     cursor: pointer;
     text-transform: uppercase;
     background-color: #ffc506;
