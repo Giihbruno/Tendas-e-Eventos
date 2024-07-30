@@ -28,11 +28,6 @@ $(document).ready(function() {
         $(navItems[activeSectionIndex]).addClass('active');
     });
 
-    ScrollReveal().reveal('.btn', {
-        origin: 'left',
-        duration: 2000,
-        distance: '560%'
-    });
 
     ScrollReveal().reveal('.main', {
         origin: 'right',
@@ -40,10 +35,17 @@ $(document).ready(function() {
         distance: '20%'
     })
 
-    ScrollReveal().reveal('.Tenda', {
+    ScrollReveal().reveal('.itens-Tenda', {
         origin: 'left',
-        duration: 3000,
+        duration: 4000,
         distance: '20%'
     });
+
+    ScrollReveal().reveal('#compra-tenda', {
+        origin: 'top',
+        duration: 4000,
+        distance: '50%'
+    });
+
 
 });
